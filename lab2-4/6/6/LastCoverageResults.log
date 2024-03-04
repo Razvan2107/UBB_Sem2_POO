@@ -1,0 +1,21 @@
+[2023-03-24 13:25:51] [info] Start Program:
+Path:"D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab2-4\6\x64\Debug\6.exe"
+Arguments:
+Working directory: "D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab2-4\6\6\"
+Modules: Selected: D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab2-4\6\x64\Debug\6.exe Excluded: 
+Sources: Selected: D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab2-4\6\6 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Razvan Stratila\AppData\Local\Temp\5kkc4pcm.ffx 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-03-24 13:25:51] [info] Module: D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab2-4\6\x64\Debug\6.exe is selected because it matches selected pattern: D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab2-4\6\x64\Debug\6.exe
+[2023-03-24 13:25:53] [info] ----------------------------------------------------
+[2023-03-24 13:25:53] [info] Coverage binary generated in file: C:\Users\Razvan Stratila\AppData\Local\Temp\5kkc4pcm.ffx
+[2023-03-24 13:25:53] [info] ----------------------------------------------------

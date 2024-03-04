@@ -1,0 +1,2729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Agentie_de_Turism.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Agentie_de_Turism', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Agentie_de_Turism::{ctor}</FUNCTION>
+    <DECORATED>??0Agentie_de_Turism@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Agentie_de_Turism.h</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Agentie_de_Turism::setPret' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Agentie_de_Turism::setPret</FUNCTION>
+    <DECORATED>?setPret@Agentie_de_Turism@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::addAT</FUNCTION>
+    <DECORATED>?addAT@ATService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::addAT</FUNCTION>
+    <DECORATED>?addAT@ATService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::addAT</FUNCTION>
+    <DECORATED>?addAT@ATService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::deleteAT</FUNCTION>
+    <DECORATED>?deleteAT@ATService@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::deleteAT</FUNCTION>
+    <DECORATED>?deleteAT@ATService@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::modifyAT</FUNCTION>
+    <DECORATED>?modifyAT@ATService@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::modifyAT</FUNCTION>
+    <DECORATED>?modifyAT@ATService@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::modifyAT</FUNCTION>
+    <DECORATED>?modifyAT@ATService@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::findAT</FUNCTION>
+    <DECORATED>?findAT@ATService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::findAT</FUNCTION>
+    <DECORATED>?findAT@ATService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'at' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::filtreaza</FUNCTION>
+    <DECORATED>?filtreaza@ATService@@AEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@V?$function@$$A6A_NAEBVAgentie_de_Turism@@@Z@3@@Z</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>ATService::filtrareDestinatie</FUNCTION>
+    <DECORATED>?filtrareDestinatie@ATService@@QEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@D@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>ATService::filtrareDestinatie</FUNCTION>
+    <DECORATED>?filtrareDestinatie@ATService@@QEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@D@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'a' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::filtrareDestinatie</FUNCTION>
+    <DECORATED>?filtrareDestinatie@ATService@@QEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@D@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>88</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::filtrarePretMaiMic</FUNCTION>
+    <DECORATED>?filtrarePretMaiMic@ATService@@QEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@H@Z</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>88</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>88</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>ATService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@ATService@@AEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@P6A_NAEBVAgentie_de_Turism@@0@Z@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>ATService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@ATService@@AEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@P6A_NAEBVAgentie_de_Turism@@0@Z@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>ATService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@ATService@@AEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@P6A_NAEBVAgentie_de_Turism@@0@Z@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>ATService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@ATService@@AEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@P6A_NAEBVAgentie_de_Turism@@0@Z@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>ATService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@ATService@@AEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@P6A_NAEBVAgentie_de_Turism@@0@Z@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>ATService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@ATService@@AEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@P6A_NAEBVAgentie_de_Turism@@0@Z@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'criteriu' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>ATService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@ATService@@AEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@P6A_NAEBVAgentie_de_Turism@@0@Z@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'criteriu' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@ATService@@AEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@P6A_NAEBVAgentie_de_Turism@@0@Z@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26822</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a null pointer 'nullptr' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::sortByTipPret::&lt;lambda_1&gt;::&lt;lambda_invoker_cdecl&gt;</FUNCTION>
+    <DECORATED>?&lt;lambda_invoker_cdecl&gt;@&lt;lambda_1&gt;@?1??sortByTipPret@ATService@@QEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@XZ@SA@AEBVAgentie_de_Turism@@0@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26822</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a null pointer 'nullptr' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ATService::sortByTipPret::&lt;lambda_1&gt;::&lt;lambda_invoker_vectorcall&gt;</FUNCTION>
+    <DECORATED>?&lt;lambda_invoker_vectorcall&gt;@&lt;lambda_1&gt;@?1??sortByTipPret@ATService@@QEAA?AV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@XZ@SQ@AEBVAgentie_de_Turism@@0@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>repo.h</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ATRepo::{ctor}</FUNCTION>
+    <DECORATED>??0ATRepo@@QEAA@XZ</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>113</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TestStergeSrv</FUNCTION>
+    <DECORATED>?TestStergeSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>113</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TestStergeSrv</FUNCTION>
+    <DECORATED>?TestStergeSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TestStergeSrv</FUNCTION>
+    <DECORATED>?TestStergeSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TestStergeSrv</FUNCTION>
+    <DECORATED>?TestStergeSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>134</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TestModificaSrv</FUNCTION>
+    <DECORATED>?TestModificaSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>134</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TestModificaSrv</FUNCTION>
+    <DECORATED>?TestModificaSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>134</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TestModificaSrv</FUNCTION>
+    <DECORATED>?TestModificaSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>139</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TestModificaSrv</FUNCTION>
+    <DECORATED>?TestModificaSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>139</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TestModificaSrv</FUNCTION>
+    <DECORATED>?TestModificaSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>139</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TestModificaSrv</FUNCTION>
+    <DECORATED>?TestModificaSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>199</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>TestSortareSrv</FUNCTION>
+    <DECORATED>?TestSortareSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>189</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>202</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>TestSortareSrv</FUNCTION>
+    <DECORATED>?TestSortareSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>189</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>205</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>TestSortareSrv</FUNCTION>
+    <DECORATED>?TestSortareSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>189</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>199</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>TestSortareSrv</FUNCTION>
+    <DECORATED>?TestSortareSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>189</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>202</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>TestSortareSrv</FUNCTION>
+    <DECORATED>?TestSortareSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>189</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>205</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>TestSortareSrv</FUNCTION>
+    <DECORATED>?TestSortareSrv@@YAXXZ</DECORATED>
+    <FUNCLINE>189</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Template.h</FILENAME>
+      <LINE>74</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Agentie_de_Turism&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorDinamic@VAgentie_de_Turism@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Template.h</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Agentie_de_Turism&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorDinamic@VAgentie_de_Turism@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Template.h</FILENAME>
+      <LINE>127</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class VectorDinamic&lt;class Agentie_de_Turism&gt;', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Agentie_de_Turism&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectorDinamic@VAgentie_de_Turism@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Template.h</FILENAME>
+      <LINE>129</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Agentie_de_Turism&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectorDinamic@VAgentie_de_Turism@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>Template.h</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>Template.h</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>Template.h</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>Template.h</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Agentie_de_Turism.h</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Agentie_de_Turism::pret' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Agentie_de_Turism::{ctor}</FUNCTION>
+    <DECORATED>??0Agentie_de_Turism@@QEAA@XZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Agentie_de_Turism::pret</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

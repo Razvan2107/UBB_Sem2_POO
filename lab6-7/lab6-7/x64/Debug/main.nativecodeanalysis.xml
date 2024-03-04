@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Agentie_de_Turism.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Agentie_de_Turism', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Agentie_de_Turism::{ctor}</FUNCTION>
+    <DECORATED>??0Agentie_de_Turism@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Agentie_de_Turism.h</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Agentie_de_Turism::setPret' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Agentie_de_Turism::setPret</FUNCTION>
+    <DECORATED>?setPret@Agentie_de_Turism@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>repo.h</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ATRepo::{ctor}</FUNCTION>
+    <DECORATED>??0ATRepo@@QEAA@XZ</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Template.h</FILENAME>
+      <LINE>74</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Agentie_de_Turism&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorDinamic@VAgentie_de_Turism@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Template.h</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Agentie_de_Turism&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorDinamic@VAgentie_de_Turism@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Template.h</FILENAME>
+      <LINE>127</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class VectorDinamic&lt;class Agentie_de_Turism&gt;', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Agentie_de_Turism&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectorDinamic@VAgentie_de_Turism@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Template.h</FILENAME>
+      <LINE>129</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Agentie_de_Turism&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectorDinamic@VAgentie_de_Turism@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>Template.h</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>Template.h</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>Template.h</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+        <FILENAME>Template.h</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Agentie_de_Turism.h</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Agentie_de_Turism::pret' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Agentie_de_Turism::{ctor}</FUNCTION>
+    <DECORATED>??0Agentie_de_Turism@@QEAA@XZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Agentie_de_Turism::pret</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

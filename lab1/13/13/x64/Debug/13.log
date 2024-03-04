@@ -1,0 +1,3 @@
+﻿  Source.c
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab1\13\13\Source.c(51,9): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  13.vcxproj -> D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab1\13\x64\Debug\13.exe

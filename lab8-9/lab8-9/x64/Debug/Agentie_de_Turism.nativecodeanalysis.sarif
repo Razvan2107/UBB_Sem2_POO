@@ -1,0 +1,103 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Agentie_de_Turism', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/Agentie_de_Turism.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 2,
+                  "endLine": 18,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Agentie_de_Turism::{ctor}",
+                  "decoratedName": "??0Agentie_de_Turism@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Agentie_de_Turism::setPret' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/Agentie_de_Turism.h"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 7,
+                  "endLine": 55,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Agentie_de_Turism::setPret",
+                  "decoratedName": "?setPret@Agentie_de_Turism@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32216.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/Agentie_de_Turism.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "48a8b410deb50e1f07db8cc3668c6489f99c53567d318e5cf62f5d92ea6f21a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul1-sem2/programare orientata obiect/laborator/lab8-9/lab8-9/agentie_de_turism.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "7c998c3b6ea328adaa525a95d6395a822963cc4ee34700b3e18e18343b0355b5"
+          }
+        }
+      ]
+    }
+  ]
+}

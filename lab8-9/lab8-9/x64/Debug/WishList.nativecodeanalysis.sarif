@@ -1,0 +1,468 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Agentie_de_Turism', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/Agentie_de_Turism.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 2,
+                  "endLine": 18,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Agentie_de_Turism::{ctor}",
+                  "decoratedName": "??0Agentie_de_Turism@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Agentie_de_Turism::setPret' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/Agentie_de_Turism.h"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 7,
+                  "endLine": 55,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Agentie_de_Turism::setPret",
+                  "decoratedName": "?setPret@Agentie_de_Turism@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'WishList::emptyWishList' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 16,
+                  "endLine": 9,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::emptyWishList",
+                  "decoratedName": "?emptyWishList@WishList@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 24,
+                  "endLine": 16,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::addRandom",
+                  "decoratedName": "?addRandom@WishList@@QEAAXV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 89
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 91
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 70
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 40,
+                  "endLine": 16,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::addRandom",
+                  "decoratedName": "?addRandom@WishList@@QEAAXV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 89
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 91
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 70
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'WishList::getAllWishList' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 44,
+                  "endLine": 24,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WishList::getAllWishList",
+                  "decoratedName": "?getAllWishList@WishList@@QEAAAEBV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32216.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/Agentie_de_Turism.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "48a8b410deb50e1f07db8cc3668c6489f99c53567d318e5cf62f5d92ea6f21a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/WishList.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3264e7c6c47e9f1eb101ef86ba1b37b0c01c7f2762bc30e676fbff9f07d1a26e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul1-sem2/programare orientata obiect/laborator/lab8-9/lab8-9/wishlist.h"
+          },
+          "hashes": {
+            "sha-256": "483c9f548905d4601bdf11b4e50f799f7cb9c46e9f9139299c3af89b600ca7e1"
+          }
+        }
+      ]
+    }
+  ]
+}

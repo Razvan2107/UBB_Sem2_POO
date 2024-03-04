@@ -1,0 +1,2770 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Agentie_de_Turism', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/Agentie_de_Turism.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 2,
+                  "endLine": 18,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Agentie_de_Turism::{ctor}",
+                  "decoratedName": "??0Agentie_de_Turism@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Agentie_de_Turism::setPret' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/Agentie_de_Turism.h"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 7,
+                  "endLine": 55,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Agentie_de_Turism::setPret",
+                  "decoratedName": "?setPret@Agentie_de_Turism@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 36,
+                  "endLine": 20,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UndoAdauga::doUndo",
+                  "decoratedName": "?doUndo@UndoAdauga@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 61
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 61,
+                  "endLine": 20,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UndoAdauga::doUndo",
+                  "decoratedName": "?doUndo@UndoAdauga@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 61
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 61
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 35,
+                  "endLine": 44,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UndoModifica::doUndo",
+                  "decoratedName": "?doUndo@UndoModifica@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 103
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 82
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 62,
+                  "endLine": 44,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UndoModifica::doUndo",
+                  "decoratedName": "?doUndo@UndoModifica@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 103
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 82
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 82,
+                  "endLine": 44,
+                  "endColumn": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UndoModifica::doUndo",
+                  "decoratedName": "?doUndo@UndoModifica@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 103
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 82
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 82
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'a' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 89,
+                  "endLine": 15,
+                  "endColumn": 98
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::tipareste",
+                  "decoratedName": "?tipareste@UI@@AEAAXAEBV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 98
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'a' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 86,
+                  "endLine": 24,
+                  "endColumn": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::tip",
+                  "decoratedName": "?tip@UI@@AEAAXAEBV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 95
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::stergeUI",
+                  "decoratedName": "?stergeUI@UI@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::stergeUI",
+                  "decoratedName": "?stergeUI@UI@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::modifyUI",
+                  "decoratedName": "?modifyUI@UI@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::modifyUI",
+                  "decoratedName": "?modifyUI@UI@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::modifyUI",
+                  "decoratedName": "?modifyUI@UI@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::addWishListUI",
+                  "decoratedName": "?addWishListUI@UI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::addWishListUI",
+                  "decoratedName": "?addWishListUI@UI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'nred' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 7,
+                  "endLine": 130,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::addRandomUI",
+                  "decoratedName": "?addRandomUI@UI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Variable 'cmd' is uninitialized. Always initialize an object (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 6,
+                  "endLine": 147,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::WishListUI",
+                  "decoratedName": "?WishListUI@UI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cmd"
+          }
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '(this->UI::srv)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 171,
+                  "startColumn": 8,
+                  "endLine": 171,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::WishListUI",
+                  "decoratedName": "?WishListUI@UI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 171,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 171,
+                  "startColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::WishListUI",
+                  "decoratedName": "?WishListUI@UI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 171,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '(this->UI::srv)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                },
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 15,
+                  "endLine": 223,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::start",
+                  "decoratedName": "?start@UI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+                          },
+                          "region": {
+                            "startLine": 223,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32216.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/Agentie_de_Turism.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "48a8b410deb50e1f07db8cc3668c6489f99c53567d318e5cf62f5d92ea6f21a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/undo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4f31e173c1f92ea6e15f72e541803d501dc8778973cddbb11e500040439b549c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/ubb/anul1-sem2/Programare orientata obiect/Laborator/lab8-9/lab8-9/console.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "625d68196431ae5f63ba07fea97a240af2f46b964cbc160520e499279ce24c5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul1-sem2/programare orientata obiect/laborator/lab8-9/lab8-9/console.h"
+          },
+          "hashes": {
+            "sha-256": "1810eb8a45bf2ecacd4f24f96d9f22a767bcd57e05d7af916c1aaf85e49a5d76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul1-sem2/programare orientata obiect/laborator/lab8-9/lab8-9/service.h"
+          },
+          "hashes": {
+            "sha-256": "0d96da86215b2d8d8d523dea81c0fde187a839450771a88d13a087316f99db92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul1-sem2/programare orientata obiect/laborator/lab8-9/lab8-9/repo.h"
+          },
+          "hashes": {
+            "sha-256": "e64f6a0f4d71aa2ee358d13e3b27769a85e50500a1f2c839b18e42b3bea1083f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul1-sem2/programare orientata obiect/laborator/lab8-9/lab8-9/repoabstract.h"
+          },
+          "hashes": {
+            "sha-256": "5b1353f80d52789593fceb0abbacf770ef0d69897f9b61449ff6f03b3d323ae3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul1-sem2/programare orientata obiect/laborator/lab8-9/lab8-9/validator.h"
+          },
+          "hashes": {
+            "sha-256": "29a52a6552e262d7753b1801edf04a5249d5748d80c27f7d0eb90a53f1770cea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ubb/anul1-sem2/programare orientata obiect/laborator/lab8-9/lab8-9/wishlist.h"
+          },
+          "hashes": {
+            "sha-256": "483c9f548905d4601bdf11b4e50f799f7cb9c46e9f9139299c3af89b600ca7e1"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+﻿  main.cpp
+  lab8-9.vcxproj -> D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\x64\Debug\lab8-9.exe
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\Agentie_de_Turism.h(18): warning C26432: If you define or delete any default operation in the type 'class Agentie_de_Turism', define or delete them all (c.21).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\Agentie_de_Turism.h(55): warning C26440: Function 'Agentie_de_Turism::setPret' can be declared 'noexcept' (f.6).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\undo.h(20): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\undo.h(20): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\undo.h(44): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\undo.h(44): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\undo.h(44): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(15): warning C26823: Dereferencing a possibly null pointer 'a' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(24): warning C26823: Dereferencing a possibly null pointer 'a' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(50): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(50): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(65): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(65): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(65): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(110): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(110): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(130): warning C26496: The variable 'nred' does not change after construction, mark it as const (con.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(147): warning C26494: Variable 'cmd' is uninitialized. Always initialize an object (type.5).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(171): warning C26823: Dereferencing a possibly null pointer '(this->UI::srv)' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(171): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\console.cpp(223): warning C26823: Dereferencing a possibly null pointer '(this->UI::srv)' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.h(30): warning C26496: The variable 'nr' does not change after construction, mark it as const (con.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\main.cpp(26): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(14): warning C26433: Function 'ATRepo::store' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(17): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(21): warning C26433: Function 'ATRepo::delete_at' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(27): warning C26823: Dereferencing a possibly null pointer 'a' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(34): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(37): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(40): warning C26433: Function 'ATRepo::modify' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(44): warning C26823: Dereferencing a possibly null pointer 'a' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(46): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(47): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(52): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(60): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(60): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(69): warning C26433: Function 'ATRepo::find' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(71): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(71): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(72): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(78): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(81): warning C26433: Function 'ATRepo::getAll' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(98): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(110): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(110): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(110): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(120): warning C26823: Dereferencing a possibly null pointer 'a' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(125): warning C26433: Function 'ATRepoFile::store' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(131): warning C26433: Function 'ATRepoFile::delete_at' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(133): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(133): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(137): warning C26433: Function 'ATRepoFile::modify' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(139): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(139): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(139): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(148): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(148): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(148): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(150): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(152): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(152): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(152): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(159): warning C26823: Dereferencing a possibly null pointer 'allotemp.16' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(159): warning C26823: Dereferencing a possibly null pointer 'allotemp.17' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(159): warning C26823: Dereferencing a possibly null pointer 'allotemp.18' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(169): warning C26823: Dereferencing a possibly null pointer 'allotemp.19' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(169): warning C26823: Dereferencing a possibly null pointer 'allotemp.20' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\Agentie_de_Turism.h(15): warning C26495: Variable 'Agentie_de_Turism::pret' is uninitialized. Always initialize a member variable (type.6).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(182): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(182): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(182): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(183): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(183): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(183): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(185): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(185): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(192): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(192): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(203): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(203): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(203): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(204): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(204): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(204): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(206): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(206): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(211): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(211): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(222): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(222): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(222): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(223): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(223): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(223): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(225): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(225): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(225): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(226): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(226): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(234): warning C26823: Dereferencing a possibly null pointer 'allotemp.17' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(234): warning C26823: Dereferencing a possibly null pointer 'allotemp.18' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(234): warning C26823: Dereferencing a possibly null pointer 'allotemp.19' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(253): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(259): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(262): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(262): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(268): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(268): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(268): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(272): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(272): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(275): warning C26823: Dereferencing a possibly null pointer 'allotemp.16' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(275): warning C26823: Dereferencing a possibly null pointer 'allotemp.17' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repo.cpp(275): warning C26823: Dereferencing a possibly null pointer 'allotemp.18' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(18): warning C26433: Function 'ATRepoLab::store' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(21): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(23): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(27): warning C26433: Function 'ATRepoLab::delete_at' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(30): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(42): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(48): warning C26433: Function 'ATRepoLab::modify' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(51): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(56): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(57): warning C26823: Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(62): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(70): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(70): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(80): warning C26433: Function 'ATRepoLab::find' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(90): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\repoLab.cpp(94): warning C26433: Function 'ATRepoLab::getAll' should be marked with 'override' (c.128).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(8): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(8): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(8): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(17): warning C26823: Dereferencing a possibly null pointer 'a' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(18): warning C26823: Dereferencing a possibly null pointer '(this->ATService::rep)' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(19): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(19): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(25): warning C26823: Dereferencing a possibly null pointer 'a' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(26): warning C26823: Dereferencing a possibly null pointer '(this->ATService::rep)' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(27): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(27): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(27): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(32): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(32): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(42): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(42): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(39): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(39): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(53): warning C26440: Function '`ATService::filtrarePretMaiMic'::`2'::<lambda_1>::operator()' can be declared 'noexcept' (f.6).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(51): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(51): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(62): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(62): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(69): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(69): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(76): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(76): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(84): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(85): warning C26823: Dereferencing a possibly null pointer 'result.->' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(92): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(92): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(99): warning C26493: Don't use C-style casts (type.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(98): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(139): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(139): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(144): warning C26823: Dereferencing a possibly null pointer 'allotemp.10' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(144): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(161): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(161): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(161): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(166): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(166): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(166): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(226): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(229): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(232): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(226): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(229): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(232): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(249): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(249): warning C26823: Dereferencing a possibly null pointer 'allotemp.15' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(254): warning C26823: Dereferencing a possibly null pointer 'allotemp.18' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(254): warning C26823: Dereferencing a possibly null pointer 'allotemp.19' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(254): warning C26823: Dereferencing a possibly null pointer 'allotemp.20' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(290): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(290): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(295): warning C26823: Dereferencing a possibly null pointer 'allotemp.15' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\service.cpp(295): warning C26823: Dereferencing a possibly null pointer 'allotemp.16' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\validator.cpp(24): warning C26823: Dereferencing a possibly null pointer 'msg' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\validator.cpp(32): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\validator.cpp(32): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\validator.cpp(32): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\WishList.cpp(9): warning C26440: Function 'WishList::emptyWishList' can be declared 'noexcept' (f.6).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\WishList.cpp(16): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\WishList.cpp(16): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\WishList.cpp(24): warning C26440: Function 'WishList::getAllWishList' can be declared 'noexcept' (f.6).

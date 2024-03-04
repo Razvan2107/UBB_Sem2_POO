@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>Agentie_de_Turism.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Agentie_de_Turism', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Agentie_de_Turism::{ctor}</FUNCTION>
+    <DECORATED>??0Agentie_de_Turism@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>Agentie_de_Turism.h</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Agentie_de_Turism::setPret' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Agentie_de_Turism::setPret</FUNCTION>
+    <DECORATED>?setPret@Agentie_de_Turism@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>undo.h</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UndoAdauga::doUndo</FUNCTION>
+    <DECORATED>?doUndo@UndoAdauga@@UEAAXXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>60</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>undo.h</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>60</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UndoAdauga::doUndo</FUNCTION>
+    <DECORATED>?doUndo@UndoAdauga@@UEAAXXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>60</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>60</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>undo.h</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UndoModifica::doUndo</FUNCTION>
+    <DECORATED>?doUndo@UndoModifica@@UEAAXXZ</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>102</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>74</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>81</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>47</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>61</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>undo.h</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>61</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UndoModifica::doUndo</FUNCTION>
+    <DECORATED>?doUndo@UndoModifica@@UEAAXXZ</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>102</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>74</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>81</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>47</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>61</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>61</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>undo.h</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>81</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UndoModifica::doUndo</FUNCTION>
+    <DECORATED>?doUndo@UndoModifica@@UEAAXXZ</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>102</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>74</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>81</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>undo.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>81</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>97</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'a' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::tipareste</FUNCTION>
+    <DECORATED>?tipareste@UI@@AEAAXAEBV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>97</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>94</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'a' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::tip</FUNCTION>
+    <DECORATED>?tip@UI@@AEAAXAEBV?$vector@VAgentie_de_Turism@@V?$allocator@VAgentie_de_Turism@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::stergeUI</FUNCTION>
+    <DECORATED>?stergeUI@UI@@AEAAXXZ</DECORATED>
+    <FUNCLINE>43</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::stergeUI</FUNCTION>
+    <DECORATED>?stergeUI@UI@@AEAAXXZ</DECORATED>
+    <FUNCLINE>43</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::modifyUI</FUNCTION>
+    <DECORATED>?modifyUI@UI@@AEAAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::modifyUI</FUNCTION>
+    <DECORATED>?modifyUI@UI@@AEAAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::modifyUI</FUNCTION>
+    <DECORATED>?modifyUI@UI@@AEAAXXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>110</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::addWishListUI</FUNCTION>
+    <DECORATED>?addWishListUI@UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>101</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>110</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::addWishListUI</FUNCTION>
+    <DECORATED>?addWishListUI@UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>101</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>130</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'nred' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>UI::addRandomUI</FUNCTION>
+    <DECORATED>?addRandomUI@UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>123</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>147</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Variable 'cmd' is uninitialized. Always initialize an object (type.5).</DESCRIPTION>
+    <FUNCTION>UI::WishListUI</FUNCTION>
+    <DECORATED>?WishListUI@UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>145</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cmd</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>171</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '(this-&gt;UI::srv)' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::WishListUI</FUNCTION>
+    <DECORATED>?WishListUI@UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>145</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>171</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::WishListUI</FUNCTION>
+    <DECORATED>?WishListUI@UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>145</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+      <FILENAME>console.cpp</FILENAME>
+      <LINE>223</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '(this-&gt;UI::srv)' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::start</FUNCTION>
+    <DECORATED>?start@UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\ubb\anul1-sem2\Programare orientata obiect\Laborator\lab8-9\lab8-9\</FILEPATH>
+        <FILENAME>console.cpp</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
